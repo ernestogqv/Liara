@@ -5,7 +5,7 @@ Created on Sat Jan 23 17:30:38 2016
 @author: ErnestoGabriel
 """
 
-print("Quieres abrir desde la ruta predeterminada?")
+print("Quieres abrir desde la ruta predeterminada? (escriba si/no)")
 ruta_answer = raw_input("->").lower().strip()
 while ruta_answer != "si" and ruta_answer != "no":
     print("Por favor, vuelva a intentarlo, escriba si o no.")
